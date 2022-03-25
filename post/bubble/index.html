@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>Idolf&#39;s Blog</title>
+<title>排序-冒泡排序 | Idolf&#39;s Blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -12,16 +12,26 @@
 <link rel="stylesheet" href="https://idolf.github.io/styles/main.css">
 
 
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
-    <meta name="description" content="温故而知新">
-    
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    
+    <meta name="description" content="算法步骤
+比较相邻的元素。如果第一个比第二个大，就交换他们两个。
+对每一对相邻元素做同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素就是最大的数。
+针对所有的元素重复以上的步骤，除了最后一个。
+
+时间复杂度
+最差情况和平均情..." />
+    <meta name="keywords" content="" />
   </head>
   <body>
     <div id="app" class="main">
@@ -95,27 +105,44 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          
-            <article class="post-item">
-              <div class="left">
-                <a href="https://idolf.github.io/post/bubble/">
-                  <h2 class="post-title">排序-冒泡排序</h2>
-                </a>
-                <div class="post-date">
-                  2022-03-25
-                </div>
-                <div class="post-abstract">
-                  
-                </div>
-              </div>
-              
-            </article>
-          
+          <div class="post-detail">
+            <h2 class="post-title">排序-冒泡排序</h2>
+            <div class="post-date">2022-03-25</div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="算法步骤">算法步骤</h2>
+<p>比较相邻的元素。如果第一个比第二个大，就交换他们两个。</p>
+<p>对每一对相邻元素做同样的工作，从开始第一对到结尾的最后一对。这步做完后，最后的元素就是最大的数。</p>
+<p>针对所有的元素重复以上的步骤，除了最后一个。</p>
+<figure data-type="image" tabindex="1"><img src="https://idolf.github.io/post-images/bubbleSort.gif" alt="" loading="lazy"></figure>
+<h2 id="时间复杂度">时间复杂度</h2>
+<p>最差情况和平均情况时间复杂度是O(n^2),当数组本身有序时是O(n)<br>
+<s>根本没啥用</s></p>
+<h2 id="代码实现">代码实现</h2>
+<p>以下代码是伪代码:</p>
+<pre><code class="language-java">for (i = 0; i &lt; arr.length; i++) { // 用来比较的指针
+	for (j = 0; j &lt; arr.length; j++) { // 用来向后遍历的
+		if (arr[j] &lt; arr[i]) { // 如果发现比arr[i]小的，那么就交换位置
+			swap(arr[j], arr[i]) // swap函数可以替换，只要能交换就好
+		}
+	}
+}
+</code></pre>
+<p>源代码在<a href="https://github.com/idolf/Algorithms/tree/main/sorts">这里</a></p>
 
-          <div class="pagination-container">
-  
-  
-</div>
+            </div>
+            
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
 
         </div>
       </div>
@@ -141,6 +168,29 @@ var app = new Vue({
     hljs.initHighlightingOnLoad()
   </script>
 
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: 'cfa487dbc680fb5ec2a9',
+        clientSecret: 'f9e1fa269bcc773dd374d9f4bf7a4aef958365d1',
+        repo: 'idolf.github.io',
+        owner: 'idolf',
+        admin: ['idolf'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 

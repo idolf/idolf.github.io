@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://idolf.github.io</id>
     <title>Idolf&apos;s Blog</title>
-    <updated>2022-03-25T03:08:09.853Z</updated>
+    <updated>2022-03-25T04:25:16.834Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://idolf.github.io"/>
     <link rel="self" href="https://idolf.github.io/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2022, Idolf&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[排序-冒泡排序]]></title>
-        <id>https://idolf.github.io/post/pai-xu-mou-pao-pai-xu/</id>
-        <link href="https://idolf.github.io/post/pai-xu-mou-pao-pai-xu/">
+        <id>https://idolf.github.io/post/bubble/</id>
+        <link href="https://idolf.github.io/post/bubble/">
         </link>
         <updated>2022-03-25T01:20:20.000Z</updated>
         <content type="html"><![CDATA[<h2 id="算法步骤">算法步骤</h2>
@@ -34,6 +34,7 @@
 	}
 }
 </code></pre>
+<p>源代码在<a href="https://github.com/idolf/Algorithms/tree/main/sorts">这里</a></p>
 ]]></content>
     </entry>
 </feed>
