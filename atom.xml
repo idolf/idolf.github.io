@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://idolf.github.io</id>
-    <title>Gezi&apos;s Blog</title>
-    <updated>2022-03-25T02:23:41.267Z</updated>
+    <title>Idolf&apos;s Blog</title>
+    <updated>2022-03-25T02:24:35.125Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://idolf.github.io"/>
     <link rel="self" href="https://idolf.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://idolf.github.io/images/avatar.png</logo>
     <icon>https://idolf.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2022, Gezi&apos;s Blog</rights>
+    <rights>All rights reserved 2022, Idolf&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[排序-冒泡排序]]></title>
         <id>https://idolf.github.io/post/pai-xu-mou-pao-pai-xu/</id>
