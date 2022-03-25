@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://idolf.github.io</id>
     <title>Idolf&apos;s Blog</title>
-    <updated>2022-03-25T02:37:59.132Z</updated>
+    <updated>2022-03-25T02:39:37.707Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://idolf.github.io"/>
     <link rel="self" href="https://idolf.github.io/atom.xml"/>
@@ -22,7 +22,7 @@
 <p>针对所有的元素重复以上的步骤，除了最后一个。</p>
 <figure data-type="image" tabindex="1"><img src="https://idolf.github.io/post-images/bubbleSort.gif" alt="" loading="lazy"></figure>
 <h2 id="时间复杂度">时间复杂度</h2>
-<p>最差情况和平均情况时间复杂度是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><msup><mi>n</mi><mn>2</mn></msup><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n^2)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.064108em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord"><span class="mord mathdefault">n</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>,当数组本身有序时是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mo>(</mo><mi>n</mi><mo>)</mo></mrow><annotation encoding="application/x-tex">O(n)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mopen">(</span><span class="mord mathdefault">n</span><span class="mclose">)</span></span></span></span><br>
+<p>最差情况和平均情况时间复杂度是O(n^2),当数组本身有序时是O(n)<br>
 <s>根本没啥用</s></p>
 <h2 id="代码实现">代码实现</h2>
 <p>以下代码是伪代码:</p>
